@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arvo', serif;
+    
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.title-underline {
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+}
+.height-80 {
+    min-height: 80vh;
+}
+
+.about-picture {
+    
+    background: url(/imgs/pexels-photo-3381028.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#filler, #progress {
+    background: linear-gradient(to right, rgba(0,0,0, 0.2), rgba(0,0,0,0.6)), url(/imgs/delfini-photo-2922672.jpeg)center/cover no-repeat fixed;
+}
