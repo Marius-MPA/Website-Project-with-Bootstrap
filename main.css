@@ -19,10 +19,11 @@ body {
 .about-picture {
     
     background: url(/imgs/pexels-photo-3381028.jpeg);
+    /* background: url("https://images.pexels.com/photos/3381028/pexels-photo-3381028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;  /* cand facem scroll img nu se misca doar scrisul de pe ea */
 }
 
 #filler, #progress {
